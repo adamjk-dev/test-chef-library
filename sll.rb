@@ -69,5 +69,9 @@ puts "stack head: #{stack.head}"
 puts "stack head.item: #{stack.head.item}"
 pop_node = stack.pop()
 puts "pop_node: #{pop_node}"
+puts "pop_node.item: #{pop_node.item}"
 puts "stack size: #{stack.size}"
 puts "stack head: #{stack.head}"
+ran_node = Node.new(1)
+puts "ran_node: #{ran_node}"
+puts "ran_node.item: #{ran_node.item}"
